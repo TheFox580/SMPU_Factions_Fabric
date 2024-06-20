@@ -1,0 +1,14 @@
+{
+  "item.smpu_factions.ava_apple": "Ava Apple",
+  "item.smpu_factions.thorny_thistle": "Thorny Thistle",
+  "item.smpu_factions.blooming_berries": "Blooming Berries",
+  "item.smpu_factions.avalore_adoption_certificate": "Avalore Adoption Certificate",
+  "item.smpu_factions.everbloom_adoption_certificate": "Everbloom Adoption Certificate",
+  "item.smpu_factions.hawthorn_adoption_certificate": "Hawthorne Adoption Certificate",
+
+  "block.smpu_factions.avalore_standing_sign": "Avalore Sign",
+  "block.smpu_factions.everbloom_standing_sign": "Everbloom Sign",
+  "block.smpu_factions.hawthorne_standing_sign": "Hawthorne Sign",
+
+  "itemgroup.smpu_factions": "SMPU Factions Items"
+}

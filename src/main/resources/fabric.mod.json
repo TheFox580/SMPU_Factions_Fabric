@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "smpu_factions",
+	"version": "${version}",
+	"name": "SMPU Factions",
+	"description": "The SMP Unity mod for Factions",
+	"authors": [
+		"TheFox580"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/TheFox580/SMPU_Factions_Fabric"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/smpu_factions/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fr.thefox580.smpu_factions.SMPU_Factions"
+		],
+		"client": [
+			"fr.thefox580.smpu_factions.SMPU_FactionClient"
+		],
+		"fabric-datagen": [
+			"fr.thefox580.smpu_factions.SMPU_FactionsDataGenerator"
+		]
+	},
+	"mixins": [
+		"smpu_factions.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

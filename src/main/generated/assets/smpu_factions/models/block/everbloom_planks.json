@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "smpu_factions:block/everbloom_planks"
+  }
+}

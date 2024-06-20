@@ -1,0 +1,14 @@
+{
+  "item.smpu_factions.ava_apple": "Jabłko Ava",
+  "item.smpu_factions.thorny_thistle": "Ciernisty Oset",
+  "item.smpu_factions.blooming_berries": "Kwitnące Jagody",
+  "item.smpu_factions.avalore_adoption_certificate": "Świadectwo adopcji Avalore",
+  "item.smpu_factions.everbloom_adoption_certificate": "Świadectwo adopcji Everbloom",
+  "item.smpu_factions.hawthorn_adoption_certificate": "Świadectwo adopcji Hawthorne",
+
+  "block.smpu_factions.avalore_standing_sign": "Avalore Tabliczka",
+  "block.smpu_factions.everbloom_standing_sign": "Everbloom Tabliczka",
+  "block.smpu_factions.hawthorne_standing_sign": "Hawthorne Tabliczka",
+
+  "itemgroup.smpu_factions": "Przedmioty frakcji SMPU"
+}

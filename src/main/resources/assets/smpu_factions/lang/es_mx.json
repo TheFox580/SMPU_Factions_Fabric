@@ -1,0 +1,14 @@
+{
+  "item.smpu_factions.ava_apple": "Ava Manzana",
+  "item.smpu_factions.thorny_thistle": "Cardo Espinoso",
+  "item.smpu_factions.blooming_berries": "Bayas Florecientes",
+  "item.smpu_factions.avalore_adoption_certificate": "Certificado de adopción de Avalore",
+  "item.smpu_factions.everbloom_adoption_certificate": "Certificado de adopción de Everbloom",
+  "item.smpu_factions.hawthorn_adoption_certificate": "Certificado de adopción de Hawthorne",
+
+  "block.smpu_factions.avalore_standing_sign": "Letrero de Avalore",
+  "block.smpu_factions.everbloom_standing_sign": "Letrero de Everbloom",
+  "block.smpu_factions.hawthorne_standing_sign": "Letrero de Hawthorne",
+
+  "itemgroup.smpu_factions": "Artículos de facción SMPU"
+}

@@ -1,0 +1,14 @@
+{
+  "item.smpu_factions.ava_apple": "Pommme d'Ava",
+  "item.smpu_factions.thorny_thistle": "Chardon Épineux",
+  "item.smpu_factions.blooming_berries": "Baies en fleurs",
+  "item.smpu_factions.avalore_adoption_certificate": "Certificat d'adoption d'Avalore",
+  "item.smpu_factions.everbloom_adoption_certificate": "Certificat d'adoption d'Everbloom",
+  "item.smpu_factions.hawthorn_adoption_certificate": "Certificat d'adoption d'Hawthorne",
+
+  "block.smpu_factions.avalore_standing_sign": "Pancarte d'Avalore",
+  "block.smpu_factions.everbloom_standing_sign": "Pancarte d'Everbloom",
+  "block.smpu_factions.hawthorne_standing_sign": "Pancarte d'Hawthorne",
+
+  "itemgroup.smpu_factions": "Objets des factions d'SMPU"
+}
