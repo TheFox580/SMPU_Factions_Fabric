@@ -4,7 +4,7 @@ import com.terraformersmc.terraform.sign.block.TerraformSignBlock;
 import net.minecraft.util.Identifier;
 
 public class SMPUSignBlock extends TerraformSignBlock {
-	public SMPUSignBlock(Identifier texture, Settings settings) {
-		super(texture, settings);
-	}
+    public SMPUSignBlock(Identifier texture, Settings settings) {
+        super(texture, settings);
+    }
 }

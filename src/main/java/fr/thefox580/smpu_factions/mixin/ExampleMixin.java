@@ -7,8 +7,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(MinecraftServer.class)
 public class ExampleMixin {
-	@Unique
-	private void init(CallbackInfo info) {
-		// This code is injected into the start of MinecraftServer.loadLevel()V
-	}
+    @Unique
+    private void init(CallbackInfo info) {
+        // This code is injected into the start of MinecraftServer.loadLevel()V
+    }
 }

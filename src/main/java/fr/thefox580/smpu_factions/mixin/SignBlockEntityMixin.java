@@ -15,16 +15,16 @@ import org.spongepowered.asm.mixin.injection.At;
 
 @Mixin(SignBlockEntity.class)
 public abstract class SignBlockEntityMixin extends BlockEntity {
-	public SignBlockEntityMixin(BlockEntityType<?> type, BlockPos pos, BlockState state) {
-		super(type, pos, state);
-	}
+    public SignBlockEntityMixin(BlockEntityType<?> type, BlockPos pos, BlockState state) {
+        super(type, pos, state);
+    }
 
-	@ModifyReturnValue(method = "createText", at = @At("RETURN"))
-	private SignText smpu$makeFactionSignTextWhite(SignText original) {
-		if ((this.getCachedState().getBlock() instanceof SMPUSignBlock) || this.getCachedState().getBlock() instanceof SMPUWallSignBlock) {
-			return original.withColor(DyeColor.WHITE);
-		}
+    @ModifyReturnValue(method = "createText", at = @At("RETURN"))
+    private SignText smpu$makeFactionSignTextWhite(SignText original) {
+        if ((this.getCachedState().getBlock() instanceof SMPUSignBlock) || this.getCachedState().getBlock() instanceof SMPUWallSignBlock) {
+            return original.withColor(DyeColor.WHITE);
+        }
 
-		return original;
-	}
+        return original;
+    }
 }
