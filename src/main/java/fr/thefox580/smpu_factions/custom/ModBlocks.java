@@ -1,12 +1,9 @@
 package fr.thefox580.smpu_factions.custom;
 
-import com.terraformersmc.terraform.sign.block.TerraformSignBlock;
-import com.terraformersmc.terraform.sign.block.TerraformWallSignBlock;
 import fr.thefox580.smpu_factions.SMPU_Factions;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.enums.Instrument;
 import net.minecraft.data.family.BlockFamilies;
 import net.minecraft.data.family.BlockFamily;
@@ -29,24 +26,24 @@ public class ModBlocks {
             "entity/signs/hawthorne");
 
     public static final Block STANDING_AVALORE_SIGN = Registry.register(Registries.BLOCK, new Identifier(SMPU_Factions.MOD_ID, "avalore_standing_sign"),
-            new TerraformSignBlock(AVALORE_SIGN_TEXTURE, FabricBlockSettings.create().solid().instrument(Instrument.BASS).noCollision().strength(1.0F)
+            new SMPUSignBlock(AVALORE_SIGN_TEXTURE, FabricBlockSettings.create().solid().instrument(Instrument.BASS).noCollision().strength(1.0F)
                     .burnable()));
     public static final Block WALL_AVALORE_SIGN = Registry.register(Registries.BLOCK, new Identifier(SMPU_Factions.MOD_ID, "avalore_wall_sign"),
-            new TerraformWallSignBlock(AVALORE_SIGN_TEXTURE, FabricBlockSettings.create().solid().instrument(Instrument.BASS).noCollision().strength(1.0F)
+            new SMPUWallSignBlock(AVALORE_SIGN_TEXTURE, FabricBlockSettings.create().solid().instrument(Instrument.BASS).noCollision().strength(1.0F)
                     .burnable()));
 
     public static final Block STANDING_EVERBLOOM_SIGN = Registry.register(Registries.BLOCK, new Identifier(SMPU_Factions.MOD_ID, "everbloom_standing_sign"),
-            new TerraformSignBlock(EVERBLOOM_SIGN_TEXTURE, FabricBlockSettings.create().solid().instrument(Instrument.BASS).noCollision().strength(1.0F)
+            new SMPUSignBlock(EVERBLOOM_SIGN_TEXTURE, FabricBlockSettings.create().solid().instrument(Instrument.BASS).noCollision().strength(1.0F)
                     .burnable()));
     public static final Block WALL_EVERBLOOM_SIGN = Registry.register(Registries.BLOCK, new Identifier(SMPU_Factions.MOD_ID, "everbloom_wall_sign"),
-            new TerraformWallSignBlock(EVERBLOOM_SIGN_TEXTURE, FabricBlockSettings.create().solid().instrument(Instrument.BASS).noCollision().strength(1.0F)
+            new SMPUWallSignBlock(EVERBLOOM_SIGN_TEXTURE, FabricBlockSettings.create().solid().instrument(Instrument.BASS).noCollision().strength(1.0F)
                     .burnable()));
 
     public static final Block STANDING_HAWTHORNE_SIGN = Registry.register(Registries.BLOCK, new Identifier(SMPU_Factions.MOD_ID, "hawthorne_standing_sign"),
-            new TerraformSignBlock(HAWTHORNE_SIGN_TEXTURE, FabricBlockSettings.create().solid().instrument(Instrument.BASS).noCollision().strength(1.0F)
+            new SMPUSignBlock(HAWTHORNE_SIGN_TEXTURE, FabricBlockSettings.create().solid().instrument(Instrument.BASS).noCollision().strength(1.0F)
                     .burnable()));
     public static final Block WALL_HAWTHORNE_SIGN = Registry.register(Registries.BLOCK, new Identifier(SMPU_Factions.MOD_ID, "hawthorne_wall_sign"),
-            new TerraformWallSignBlock(HAWTHORNE_SIGN_TEXTURE, FabricBlockSettings.create().solid().instrument(Instrument.BASS).noCollision().strength(1.0F)
+            new SMPUWallSignBlock(HAWTHORNE_SIGN_TEXTURE, FabricBlockSettings.create().solid().instrument(Instrument.BASS).noCollision().strength(1.0F)
                     .burnable()));
 
     public static final Block AVALORE_PLANKS = registerBlock("avalore_planks", new Block(FabricBlockSettings.create().instrument(Instrument.BASS)
