@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "smpu_factions:avalore_wall_sign",
+    "smpu_factions:everbloom_wall_sign",
+    "smpu_factions:hawthorne_wall_sign"
+  ]
+}

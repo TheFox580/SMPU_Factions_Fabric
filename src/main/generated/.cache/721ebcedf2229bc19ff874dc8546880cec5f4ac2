@@ -1,7 +1,7 @@
-// 1.20.1	2024-06-20T21:19:31.0972501	SMPU Factions/Block Loot Tables
-12aef083e095f377a71fa9ff07feacd408e9a1f7 data\smpu_factions\loot_tables\blocks\hawthorne_wall_sign.json
+// 1.20.1	2024-06-21T08:14:52.9245123	SMPU Factions/Block Loot Tables
+21fa840977ac2b4eb61f74831e8040d6efbb1c20 data\smpu_factions\loot_tables\blocks\everbloom_standing_sign.json
 12aef083e095f377a71fa9ff07feacd408e9a1f7 data\smpu_factions\loot_tables\blocks\hawthorne_standing_sign.json
+3301212bc53571ed43c77ec9cc84726c924e466a data\smpu_factions\loot_tables\blocks\avalore_standing_sign.json
+12aef083e095f377a71fa9ff07feacd408e9a1f7 data\smpu_factions\loot_tables\blocks\hawthorne_wall_sign.json
 3301212bc53571ed43c77ec9cc84726c924e466a data\smpu_factions\loot_tables\blocks\avalore_wall_sign.json
 21fa840977ac2b4eb61f74831e8040d6efbb1c20 data\smpu_factions\loot_tables\blocks\everbloom_wall_sign.json
-21fa840977ac2b4eb61f74831e8040d6efbb1c20 data\smpu_factions\loot_tables\blocks\everbloom_standing_sign.json
-3301212bc53571ed43c77ec9cc84726c924e466a data\smpu_factions\loot_tables\blocks\avalore_standing_sign.json

@@ -1,5 +1,7 @@
 package fr.thefox580.smpu_factions;
 
+import fr.thefox580.smpu_factions.datagen.ModBlockTagProvider;
+import fr.thefox580.smpu_factions.datagen.ModItemTagProvider;
 import fr.thefox580.smpu_factions.datagen.ModLootTableProvider;
 import fr.thefox580.smpu_factions.datagen.ModModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
@@ -13,6 +15,7 @@ public class SMPU_FactionsDataGenerator implements DataGeneratorEntrypoint {
 
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModModelProvider::new);
-
+		pack.addProvider(ModBlockTagProvider::new);
+		pack.addProvider(ModItemTagProvider::new);
 	}
 }
