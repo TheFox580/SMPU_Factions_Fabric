@@ -6,7 +6,7 @@ import net.fabricmc.api.ClientModInitializer;
 import net.minecraft.client.render.TexturedRenderLayers;
 import net.minecraft.client.util.SpriteIdentifier;
 
-public class SMPU_FactionClient implements ClientModInitializer {
+public class Unity_FactionClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 

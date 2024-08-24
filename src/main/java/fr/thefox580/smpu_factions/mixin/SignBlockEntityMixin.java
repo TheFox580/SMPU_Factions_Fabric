@@ -1,8 +1,8 @@
 package fr.thefox580.smpu_factions.mixin;
 
 import com.llamalad7.mixinextras.injector.ModifyReturnValue;
-import fr.thefox580.smpu_factions.custom.SMPUSignBlock;
-import fr.thefox580.smpu_factions.custom.SMPUWallSignBlock;
+import fr.thefox580.smpu_factions.custom.UnitySignBlock;
+import fr.thefox580.smpu_factions.custom.UnityWallSignBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
@@ -21,7 +21,7 @@ public abstract class SignBlockEntityMixin extends BlockEntity {
 
     @ModifyReturnValue(method = "createText", at = @At("RETURN"))
     private SignText smpu$makeFactionSignTextWhite(SignText original) {
-        if ((this.getCachedState().getBlock() instanceof SMPUSignBlock) || this.getCachedState().getBlock() instanceof SMPUWallSignBlock) {
+        if ((this.getCachedState().getBlock() instanceof UnitySignBlock) || this.getCachedState().getBlock() instanceof UnityWallSignBlock) {
             return original.withColor(DyeColor.WHITE);
         }
 

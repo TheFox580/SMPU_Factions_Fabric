@@ -2,10 +2,11 @@
 	"schemaVersion": 1,
 	"id": "smpu_factions",
 	"version": "${version}",
-	"name": "SMPU Factions",
+	"name": "Unity Factions",
 	"description": "The SMP Unity mod for Factions",
 	"authors": [
-		"TheFox580"
+		"TheFox580",
+		"BluSpring"
 	],
 	"contact": {
 		"homepage": "",
@@ -16,13 +17,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"fr.thefox580.smpu_factions.SMPU_Factions"
+			"fr.thefox580.smpu_factions.Unity_Faction"
 		],
 		"client": [
-			"fr.thefox580.smpu_factions.SMPU_FactionClient"
+			"fr.thefox580.smpu_factions.Unity_FactionClient"
 		],
 		"fabric-datagen": [
-			"fr.thefox580.smpu_factions.SMPU_FactionsDataGenerator"
+			"fr.thefox580.smpu_factions.Unity_FactionDataGenerator"
 		]
 	},
 	"mixins": [

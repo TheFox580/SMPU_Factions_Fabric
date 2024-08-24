@@ -3,8 +3,8 @@ package fr.thefox580.smpu_factions.mixin;
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
 import com.llamalad7.mixinextras.sugar.Local;
-import fr.thefox580.smpu_factions.custom.SMPUSignBlock;
-import fr.thefox580.smpu_factions.custom.SMPUWallSignBlock;
+import fr.thefox580.smpu_factions.custom.UnitySignBlock;
+import fr.thefox580.smpu_factions.custom.UnityWallSignBlock;
 import net.minecraft.block.AbstractSignBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.WoodType;
@@ -44,7 +44,7 @@ public class SignBlockEntityRendererMixin {
         var sign = this.signBlockEntity.get();
         if (
             signText.getColor() == DyeColor.WHITE && sign != null && sign.getCachedState() != null &&
-            (sign.getCachedState().getBlock() instanceof SMPUSignBlock || sign.getCachedState().getBlock() instanceof SMPUWallSignBlock)
+            (sign.getCachedState().getBlock() instanceof UnitySignBlock || sign.getCachedState().getBlock() instanceof UnityWallSignBlock)
         ) {
             double d = 0.7;
             int i = signText.getColor().getSignColor();

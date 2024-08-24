@@ -1,6 +1,6 @@
 package fr.thefox580.smpu_factions.custom;
 
-import fr.thefox580.smpu_factions.SMPU_Factions;
+import fr.thefox580.smpu_factions.Unity_Faction;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
@@ -39,11 +39,11 @@ public class ModItems {
             new SignItem(new FabricItemSettings(), ModBlocks.STANDING_HAWTHORNE_SIGN, ModBlocks.WALL_HAWTHORNE_SIGN));
 
     private static Item registerItem(String name, Item item){
-        return Registry.register(Registries.ITEM, new Identifier(SMPU_Factions.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, new Identifier(Unity_Faction.MOD_ID, name), item);
     }
 
     public static void registerModItems(){
-        SMPU_Factions.LOGGER.info("Registering Mod Items for " + SMPU_Factions.MOD_ID);
+        Unity_Faction.LOGGER.info("Registering Mod Items for " + Unity_Faction.MOD_ID);
     }
 
 }
