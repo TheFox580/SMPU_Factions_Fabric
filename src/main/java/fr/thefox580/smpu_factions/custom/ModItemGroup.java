@@ -11,7 +11,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
 
-    public static final ItemGroup SMPU_FACTIONS_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(Unity_Faction.MOD_ID,
+    public static final ItemGroup SMPU_FACTIONS_GROUP = Registry.register(Registries.ITEM_GROUP, Identifier.of(Unity_Faction.MOD_ID,
             "smpu_factions"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.smpu_factions"))
                     .icon(() -> new ItemStack(ModItems.AVA_APPLE)).entries((displayContext, entries) -> {

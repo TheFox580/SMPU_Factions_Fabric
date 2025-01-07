@@ -1,6 +1,6 @@
 package fr.thefox580.smpu_factions.custom;
 
-import com.terraformersmc.terraform.sign.block.TerraformSignBlock;
+import com.terraformersmc.terraform.sign.api.block.TerraformSignBlock;
 import net.minecraft.util.Identifier;
 
 public class UnitySignBlock extends TerraformSignBlock {
